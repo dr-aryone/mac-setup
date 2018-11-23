@@ -81,6 +81,9 @@ xcode-select --install
 ### Essentials
 
 ```shell
+brew cask install cakebrew
+brew cask install charles
+brew cask install forklift
 brew cask install diffmerge
 brew cask install google-chrome
 brew cask install iterm2
@@ -91,7 +94,9 @@ brew cask install postman
 brew cask install skype
 brew cask install slack
 brew cask install spotify
+brew cask install soundcleod
 brew cask install vagrant
+brew cask install spectacle
 brew cask install virtualbox
 brew install git
 brew install git-flow-avh
@@ -100,6 +105,9 @@ brew install wget
 brew install imagemagick
 brew install ffmpeg
 brew install plantuml
+brew install graphicsmagick
+brew install phantomjs
+brew install ffmpeg
 ```
 
 ### Quick Look Plugins
@@ -122,6 +130,12 @@ git config --global user.email "your_email@youremail.com"
 ### Generating a New SSH Key
 
 You may need to generate a new SSH key and add it to the ssh-agent, see the documentation on [GitHub](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-mac).
+
+## Create Projects Directory
+
+```shell
+mkdir ~/Projects
+```
 
 ## Install ZSH
 
