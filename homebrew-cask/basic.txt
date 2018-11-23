@@ -1,0 +1,6 @@
+dropbox
+google-chrome
+slack
+skype
+spotify
+vlc
