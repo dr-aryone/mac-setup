@@ -48,6 +48,7 @@
 	- Enable Tap to click with one finger
 - More Gestures
 	- Change Swipe between pages to swipe with three fingers
+	- Activate "App Expose"
 	
 #### Security & Privacy
 
@@ -98,6 +99,8 @@ brew cask install soundcleod
 brew cask install vagrant
 brew cask install spectacle
 brew cask install virtualbox
+brew cask install transmission
+brew cask install filezilla
 brew install git
 brew install git-flow-avh
 brew install ssh-copy-id
@@ -117,6 +120,13 @@ From https://github.com/sindresorhus/quick-look-plugins
 ```shell
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo
 ```
+
+## iTerm2
+* Download and install [iTerm2](http://www.iterm2.com/)
+
+* In **iTerm > Preferences...**, under the tab **General**, uncheck **Confirm closing multiple sessions** and **Confirm "Quit iTerm2 (Cmd+Q)" command** under the section **Closing**.
+
+* In the tab **Profiles**, create a new one with the "+" icon, and rename it to your first name for example. Then, select **Other Actions... > Set as Default**. Under the section General set Working Directory to be Reuse previous session's directory. Finally, under the section **Window**, change the size to something better, like **Columns: 125** and **Rows: 35**.
 
 ## Git Setup
 
@@ -545,6 +555,13 @@ To have launchd start redis now and restart at login:
 
 ```shell
 brew services start redis
+```
+
+* Install MacOS CLI and sign in to be able to install from the store directly from the console
+
+```bash
+brew install mas
+mas signin mail@mail.com
 ```
 
 Install [Homebrew](https://brew.sh/) and [Cask](https://github.com/Homebrew/homebrew-cask)
