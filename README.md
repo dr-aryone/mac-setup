@@ -637,3 +637,6 @@ Reset thanh dock lại mặc định ban đầu
 `defaults delete com.apple.dock; killall Dock`
 
 Làm quen với các phím tắt trên Mac với phần mềm CheatSheet
+
+Jetbrains IDE:
+search "show document" trong preferences
